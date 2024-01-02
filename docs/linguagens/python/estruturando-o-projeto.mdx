@@ -1,0 +1,32 @@
+---
+title: "Estruturando o projeto"
+sidebar_position: 2
+displayed_sidebar: pythonSidebar
+# pagination_prev: linguagens/index
+---
+
+# Estruturando o projeto
+
+Agora precisamos criar uma estrutura para o projeto, definir onde vão ficar os eventos, os comandos e outras funções relacionadas ao bot.
+
+### Estrutura de arquivos
+![Estrutura do projeto](./assets/folder-structure.png)
+
+### Descrição dos diretórios
+
+<div className='flex flex-col gap-4'>
+  ![Diretório main](./assets/dir-main.png)\
+  `main.py` será o arquivo principal, onde definimos o `client` e iniciamos o bot, também será usado para carregar outros arquivos do projeto.
+
+  ![Diretório cogs](./assets/dir-cogs.png)\
+  Cogs são extensões do discord.py. Cada cog é um módulo Python que contém um conjunto de comandos, listeners de eventos e/ou outras funcionalidades.
+
+  ![Diretório eventos](./assets/dir-events.png)\
+  A pasta `events/` irá armazenar eventos do discord.py, por exemplo, quando uma mensagem é recebida ou quando um membro se junta a um servidor.
+
+  ![Diretório funções](./assets/dir-functions.png)\
+  A pasta `functions/` pode conter arquivos com funções auxiliares indiretas, que serão usadas em um ou vários arquivos da aplicação.
+  
+  ![Diretório env](./assets/dir-env.png)\
+  `.env` é usado para armazenar variáveis de ambiente de forma segura, como o token do bot e outras credenciais privadas.
+</div>

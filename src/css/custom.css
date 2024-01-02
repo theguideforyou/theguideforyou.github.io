@@ -1,0 +1,48 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Inter:wght@300;400;500;600;700&display=swap');
+
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+ /* You can override the default Infima variables here. */
+ :root {
+  --ifm-font-family-base: 'Inter';
+  
+  --ifm-color-primary: #9ed9bf;
+  --ifm-color-primary-dark: #8bc8ae;
+  --ifm-color-primary-darker: #7fbfa5;
+  --ifm-color-primary-darkest: #6daa92;
+  --ifm-color-primary-light: #afe6cc;
+  --ifm-color-primary-lighter: #bcead2;
+  --ifm-color-primary-lightest: #d4f2e2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-background-color: #121212 !important;
+  --ifm-heading-font-weight: 600;
+  
+  --ifm-color-primary: #7ad0b3;
+  --ifm-color-primary-dark: #6dbfa1;
+  --ifm-color-primary-darker: #63b494;
+  --ifm-color-primary-darkest: #549d7f;
+  --ifm-color-primary-light: #85e0c6;
+  --ifm-color-primary-lighter: #90e5cc;
+  --ifm-color-primary-lightest: #a9f0da;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.langCardAnchor:hover {
+  text-decoration: none;
+}
+
+.langCardBox {
+  border: 1px solid #404040;
+}
