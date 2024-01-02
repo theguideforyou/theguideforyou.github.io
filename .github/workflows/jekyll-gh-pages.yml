@@ -4,7 +4,7 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -15,13 +15,17 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow one concurrent deployment
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
+
+env:
+  # Hosted GitHub runners have 7 GB of memory available, let's use 6 GB
+  NODE_OPTIONS: --max-old-space-size=6144
 
 jobs:
+  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -30,7 +34,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      # 👇 Build steps
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -40,15 +43,13 @@ jobs:
         run: yarn install --frozen-lockfile --non-interactive
       - name: Build
         run: yarn build
-      # 👆 Build steps
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          # 👇 Specify build output path
+          # Upload entire repository
           path: build
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-
