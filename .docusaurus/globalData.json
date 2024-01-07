@@ -1,0 +1,95 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "introducao/sobre-nos",
+          "docs": [
+            {
+              "id": "iniciando/por-que-programar-bot",
+              "path": "/docs/iniciando/por-que-programar-bot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "iniciando/qual-linguagem-escolher",
+              "path": "/docs/iniciando/qual-linguagem-escolher",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introducao/contribuidor",
+              "path": "/docs/introducao/contribuidor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introducao/sobre-nos",
+              "path": "/docs/introducao/sobre-nos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "linguagens/index",
+              "path": "/docs/linguagens/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "linguagens/javascript",
+              "path": "/docs/linguagens/javascript",
+              "sidebar": "javascriptSidebar"
+            },
+            {
+              "id": "linguagens/python/configuracao-inicial",
+              "path": "/docs/linguagens/python/configuracao-inicial",
+              "sidebar": "pythonSidebar"
+            },
+            {
+              "id": "linguagens/python/definindo-o-bot",
+              "path": "/docs/linguagens/python/definindo-o-bot",
+              "sidebar": "pythonSidebar"
+            },
+            {
+              "id": "linguagens/python/estruturando-o-projeto",
+              "path": "/docs/linguagens/python/estruturando-o-projeto",
+              "sidebar": "pythonSidebar"
+            },
+            {
+              "id": "linguagens/python/index",
+              "path": "/docs/linguagens/python/",
+              "sidebar": "pythonSidebar"
+            },
+            {
+              "id": "linguagens/python/utilizando-eventos",
+              "path": "/docs/linguagens/python/utilizando-eventos",
+              "sidebar": "pythonSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/introducao/sobre-nos",
+                "label": "introducao/sobre-nos"
+              }
+            },
+            "javascriptSidebar": {
+              "link": {
+                "path": "/docs/linguagens/javascript",
+                "label": "linguagens/javascript"
+              }
+            },
+            "pythonSidebar": {
+              "link": {
+                "path": "/docs/linguagens/python/",
+                "label": "linguagens/python/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "introducao/contribuidor",
+  "title": "Como posso contribuir?",
+  "description": "",
+  "source": "@site/docs/introducao/contribuidor.md",
+  "sourceDirName": "introducao",
+  "slug": "/introducao/contribuidor",
+  "permalink": "/docs/introducao/contribuidor",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/introducao/contribuidor.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sobre nós",
+    "permalink": "/docs/introducao/sobre-nos"
+  },
+  "next": {
+    "title": "Qual linguagem escolher?",
+    "permalink": "/docs/iniciando/qual-linguagem-escolher"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "linguagens/python/configuracao-inicial",
+  "title": "Configurações iniciais",
+  "description": "Para acessar o token do seu bot, veja o Guia de como criar uma aplicação no Discord Developer Portal",
+  "source": "@site/docs/linguagens/python/configuracao-inicial.mdx",
+  "sourceDirName": "linguagens/python",
+  "slug": "/linguagens/python/configuracao-inicial",
+  "permalink": "/docs/linguagens/python/configuracao-inicial",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/python/configuracao-inicial.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Configurações iniciais",
+    "sidebar_position": 2,
+    "displayed_sidebar": "pythonSidebar"
+  },
+  "sidebar": "pythonSidebar",
+  "previous": {
+    "title": "Estruturando o projeto",
+    "permalink": "/docs/linguagens/python/estruturando-o-projeto"
+  },
+  "next": {
+    "title": "Definindo o bot",
+    "permalink": "/docs/linguagens/python/definindo-o-bot"
+  }
+}

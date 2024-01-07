@@ -1,0 +1,475 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs",
+          "editUrlLocalized": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\peric\\OneDrive\\Área de Trabalho\\doc-teste-ts - Copia\\website\\sidebars.ts",
+          "contentPath": "C:\\Users\\peric\\OneDrive\\Área de Trabalho\\doc-teste-ts - Copia\\website\\docs",
+          "contentPathLocalized": "C:\\Users\\peric\\OneDrive\\Área de Trabalho\\doc-teste-ts - Copia\\website\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "iniciando/por-que-programar-bot",
+              "title": "Porque programar um bot?",
+              "description": "",
+              "source": "@site/docs/iniciando/por-que-programar-bot.md",
+              "sourceDirName": "iniciando",
+              "slug": "/iniciando/por-que-programar-bot",
+              "permalink": "/docs/iniciando/por-que-programar-bot",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/iniciando/por-que-programar-bot.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Qual linguagem escolher?",
+                "permalink": "/docs/iniciando/qual-linguagem-escolher"
+              },
+              "next": {
+                "title": "🧑‍💻 Linguagens",
+                "permalink": "/docs/linguagens/"
+              }
+            },
+            {
+              "id": "iniciando/qual-linguagem-escolher",
+              "title": "Qual linguagem escolher?",
+              "description": "",
+              "source": "@site/docs/iniciando/qual-linguagem-escolher.md",
+              "sourceDirName": "iniciando",
+              "slug": "/iniciando/qual-linguagem-escolher",
+              "permalink": "/docs/iniciando/qual-linguagem-escolher",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/iniciando/qual-linguagem-escolher.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Como posso contribuir?",
+                "permalink": "/docs/introducao/contribuidor"
+              },
+              "next": {
+                "title": "Porque programar um bot?",
+                "permalink": "/docs/iniciando/por-que-programar-bot"
+              }
+            },
+            {
+              "id": "introducao/contribuidor",
+              "title": "Como posso contribuir?",
+              "description": "",
+              "source": "@site/docs/introducao/contribuidor.md",
+              "sourceDirName": "introducao",
+              "slug": "/introducao/contribuidor",
+              "permalink": "/docs/introducao/contribuidor",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/introducao/contribuidor.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sobre nós",
+                "permalink": "/docs/introducao/sobre-nos"
+              },
+              "next": {
+                "title": "Qual linguagem escolher?",
+                "permalink": "/docs/iniciando/qual-linguagem-escolher"
+              }
+            },
+            {
+              "id": "introducao/sobre-nos",
+              "title": "Sobre nós",
+              "description": "",
+              "source": "@site/docs/introducao/sobre-nos.md",
+              "sourceDirName": "introducao",
+              "slug": "/introducao/sobre-nos",
+              "permalink": "/docs/introducao/sobre-nos",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/introducao/sobre-nos.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Como posso contribuir?",
+                "permalink": "/docs/introducao/contribuidor"
+              }
+            },
+            {
+              "id": "linguagens/index",
+              "title": "🧑‍💻 Linguagens",
+              "description": "<Card",
+              "source": "@site/docs/linguagens/index.mdx",
+              "sourceDirName": "linguagens",
+              "slug": "/linguagens/",
+              "permalink": "/docs/linguagens/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/index.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "🧑‍💻 Linguagens",
+                "pagination_prev": null,
+                "pagination_next": null
+              },
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "linguagens/javascript",
+              "title": "Iniciando com Discord.js",
+              "description": "",
+              "source": "@site/docs/linguagens/javascript.md",
+              "sourceDirName": "linguagens",
+              "slug": "/linguagens/javascript",
+              "permalink": "/docs/linguagens/javascript",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/javascript.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "displayed_sidebar": "javascriptSidebar",
+                "pagination_prev": "linguagens/index"
+              },
+              "sidebar": "javascriptSidebar",
+              "previous": {
+                "title": "🧑‍💻 Linguagens",
+                "permalink": "/docs/linguagens/"
+              }
+            },
+            {
+              "id": "linguagens/python/configuracao-inicial",
+              "title": "Configurações iniciais",
+              "description": "Para acessar o token do seu bot, veja o Guia de como criar uma aplicação no Discord Developer Portal",
+              "source": "@site/docs/linguagens/python/configuracao-inicial.mdx",
+              "sourceDirName": "linguagens/python",
+              "slug": "/linguagens/python/configuracao-inicial",
+              "permalink": "/docs/linguagens/python/configuracao-inicial",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/python/configuracao-inicial.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Configurações iniciais",
+                "sidebar_position": 2,
+                "displayed_sidebar": "pythonSidebar"
+              },
+              "sidebar": "pythonSidebar",
+              "previous": {
+                "title": "Estruturando o projeto",
+                "permalink": "/docs/linguagens/python/estruturando-o-projeto"
+              },
+              "next": {
+                "title": "Definindo o bot",
+                "permalink": "/docs/linguagens/python/definindo-o-bot"
+              }
+            },
+            {
+              "id": "linguagens/python/definindo-o-bot",
+              "title": "Definindo o bot",
+              "description": "Agora que as bibliotecas estão instaladas e o token já está armazenado no .env, precisamos definir a classe do bot.",
+              "source": "@site/docs/linguagens/python/definindo-o-bot.mdx",
+              "sourceDirName": "linguagens/python",
+              "slug": "/linguagens/python/definindo-o-bot",
+              "permalink": "/docs/linguagens/python/definindo-o-bot",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/python/definindo-o-bot.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Definindo o bot",
+                "sidebar_position": 3,
+                "displayed_sidebar": "pythonSidebar"
+              },
+              "sidebar": "pythonSidebar",
+              "previous": {
+                "title": "Configurações iniciais",
+                "permalink": "/docs/linguagens/python/configuracao-inicial"
+              },
+              "next": {
+                "title": "Utilizando eventos",
+                "permalink": "/docs/linguagens/python/utilizando-eventos"
+              }
+            },
+            {
+              "id": "linguagens/python/estruturando-o-projeto",
+              "title": "Estruturando o projeto",
+              "description": "Agora precisamos criar uma estrutura para o projeto, definir onde vão ficar os eventos, os comandos e outras funções relacionadas ao bot.",
+              "source": "@site/docs/linguagens/python/estruturando-o-projeto.mdx",
+              "sourceDirName": "linguagens/python",
+              "slug": "/linguagens/python/estruturando-o-projeto",
+              "permalink": "/docs/linguagens/python/estruturando-o-projeto",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/python/estruturando-o-projeto.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Estruturando o projeto",
+                "sidebar_position": 3,
+                "displayed_sidebar": "pythonSidebar"
+              },
+              "sidebar": "pythonSidebar",
+              "previous": {
+                "title": "Introdução",
+                "permalink": "/docs/linguagens/python/"
+              },
+              "next": {
+                "title": "Configurações iniciais",
+                "permalink": "/docs/linguagens/python/configuracao-inicial"
+              }
+            },
+            {
+              "id": "linguagens/python/index",
+              "title": "Introdução",
+              "description": "Veja nosso guia de como instalar o python em sua máquina, antes de iniciar a criação do bot",
+              "source": "@site/docs/linguagens/python/index.mdx",
+              "sourceDirName": "linguagens/python",
+              "slug": "/linguagens/python/",
+              "permalink": "/docs/linguagens/python/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/python/index.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "displayed_sidebar": "pythonSidebar",
+                "pagination_prev": "linguagens/index"
+              },
+              "sidebar": "pythonSidebar",
+              "previous": {
+                "title": "🧑‍💻 Linguagens",
+                "permalink": "/docs/linguagens/"
+              },
+              "next": {
+                "title": "Estruturando o projeto",
+                "permalink": "/docs/linguagens/python/estruturando-o-projeto"
+              }
+            },
+            {
+              "id": "linguagens/python/utilizando-eventos",
+              "title": "Utilizando eventos",
+              "description": "Recomendamos que veja O que são eventos antes de continuar esse tópico",
+              "source": "@site/docs/linguagens/python/utilizando-eventos.mdx",
+              "sourceDirName": "linguagens/python",
+              "slug": "/linguagens/python/utilizando-eventos",
+              "permalink": "/docs/linguagens/python/utilizando-eventos",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/python/utilizando-eventos.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Utilizando eventos",
+                "sidebar_position": 4,
+                "displayed_sidebar": "pythonSidebar",
+                "pagination_prev": "linguagens/index"
+              },
+              "sidebar": "pythonSidebar",
+              "previous": {
+                "title": "🧑‍💻 Linguagens",
+                "permalink": "/docs/linguagens/"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "link",
+                "href": "/docs/linguagens",
+                "label": "🧑‍💻 Linguagens"
+              },
+              {
+                "type": "category",
+                "label": "📖 Introdução",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "introducao/sobre-nos"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introducao/contribuidor"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "🏠 Iniciando",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "iniciando/qual-linguagem-escolher"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "iniciando/por-que-programar-bot"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "🧑‍💻 Linguagens",
+                "collapsible": true,
+                "collapsed": true,
+                "className": "hidden",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "linguagens/javascript"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Introdução",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "linguagens/python/configuracao-inicial"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "linguagens/python/definindo-o-bot"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "linguagens/python/estruturando-o-projeto"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "linguagens/python/utilizando-eventos"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "linguagens/python/index"
+                    }
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "linguagens/index"
+                }
+              }
+            ],
+            "javascriptSidebar": [
+              {
+                "type": "doc",
+                "id": "linguagens/javascript"
+              }
+            ],
+            "pythonSidebar": [
+              {
+                "type": "link",
+                "href": "/docs/linguagens",
+                "label": "🧑‍💻 Linguagens"
+              },
+              {
+                "type": "doc",
+                "id": "linguagens/python/index"
+              },
+              {
+                "type": "doc",
+                "id": "linguagens/python/estruturando-o-projeto"
+              },
+              {
+                "type": "doc",
+                "id": "linguagens/python/configuracao-inicial"
+              },
+              {
+                "type": "doc",
+                "id": "linguagens/python/definindo-o-bot"
+              },
+              {
+                "type": "doc",
+                "id": "linguagens/python/utilizando-eventos"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-tailwindcss": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,38 @@
+---
+title: "Configurações iniciais"
+sidebar_position: 2
+displayed_sidebar: pythonSidebar
+# pagination_prev: linguagens/index
+---
+# Configurações iniciais
+
+:::info
+Para acessar o token do seu bot, veja o [Guia de como criar uma aplicação no Discord Developer Portal](#)
+:::
+
+### Definindo variáveis de ambiente
+Vamos usar o arquivo `.env` para criar as variáveis de ambiente, são pares de chave-valor que ficam salvos no sistema operacional. Geralmente são usadas pra armazenar informações sensíveis, como chaves de API, senhas ou configurações específicas do projeto.
+Nesse caso podemos salvar o token do bot, dessa forma:
+
+```ini title=".env"
+BOT_TOKEN=SEU_TOKEN
+```
+
+### Carregando o arquivo .env
+Comece instalanto a biblioteca `python-dotenv`, ela nos permite carregar os valores do `.env`
+```shell-session
+pip install python-dotenv
+```
+
+Agora precisamos importar e executar a função `load_dotenv` no arquivo principal (main.py).
+Feito isso já é possível acessar o token do bot para iniciá-lo.
+```py title="main.py"
+import os
+from dotenv import load_dotenv()
+
+# Carregando variáveis do .env
+load_dotenv()
+
+# Acessando a variável com a chave "BOT_TOKEN"
+print(os.getenv("BOT_TOKEN"))
+```

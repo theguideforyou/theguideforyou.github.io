@@ -1,0 +1,22 @@
+{
+  "id": "linguagens/index",
+  "title": "🧑‍💻 Linguagens",
+  "description": "<Card",
+  "source": "@site/docs/linguagens/index.mdx",
+  "sourceDirName": "linguagens",
+  "slug": "/linguagens/",
+  "permalink": "/docs/linguagens/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/index.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "🧑‍💻 Linguagens",
+    "pagination_prev": null,
+    "pagination_next": null
+  },
+  "sidebar": "tutorialSidebar"
+}

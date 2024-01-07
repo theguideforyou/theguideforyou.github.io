@@ -1,0 +1,42 @@
+---
+title: "Definindo o bot"
+sidebar_position: 3
+displayed_sidebar: pythonSidebar
+# pagination_prev: linguagens/index
+---
+
+# Definindo o bot
+
+Agora que as bibliotecas estão instaladas e o token já está armazenado no .env, precisamos definir a classe do `bot`.
+
+```py title="main.py"
+import os
+import discord
+from discord.ext import commands
+from dotenv import load_dotenv
+
+# Carregando as variáveis de ambiente do .env
+load_dotenv()
+
+# Definindo as intents
+intents = discord.Intents.default()
+intents.message_content = True
+
+class Bot(commands.bot):
+  async def setup_hook(self):
+    print("Bot iniciado com sucesso!")
+
+# Definindo o bot com as intents e o prefixo
+bot = Bot(intents=intents, command_prefix="!")
+
+# Iniciando o bot com o token armazenado no .env
+token = os.getenv('BOT_TOKEN')
+bot.run(token)
+```
+
+Lembrando que estamos usando a função `setup_hook` ao invés do evento `on_ready`, já que o `on_ready` pode ser emitido mais de uma vez e pode não ser o primeiro evento a ser chamado (de acordo com a própria documentação do discord.py)
+{/* Esse `client` agora pode ser usado para acessar informações de servidores, usuários, receber eventos, registrar comandos, enviar mensagens e muito mais. */}
+
+:::warning[Aviso]
+Caso não tenha habilitado as intents no painel do Discord Developer Portal, você receberá um erro na hora de iniciar o bot. Qualquer dúvida consulte o [Guia de intents do Discord](#).
+:::

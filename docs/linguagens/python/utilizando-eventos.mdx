@@ -1,0 +1,46 @@
+---
+title: "Utilizando eventos"
+sidebar_position: 4
+displayed_sidebar: pythonSidebar
+pagination_prev: linguagens/index
+---
+
+# Utilizando eventos
+
+:::info
+Recomendamos que veja [O que são eventos](#) antes de continuar esse tópico
+:::
+
+### Criando estrutura de eventos
+
+Vamos começar criando uma extensão, explicando de forma simples, é um recurso do discord.py que permite dividir funções do bot em arquivos separados e depois carregá-los. Essa extensão vai conter uma cog, que nesse caso é um conjunto de eventos.\
+Note que as extensões recebem uma função especial chamada `setup`, que é executada quando a extensão é carregada.
+```py title="cogs/events.py"
+from discord.ext.commands import Cog
+from discord import Message
+
+class Events(Cog):
+  def __init__(self, bot):
+    self.bot = bot
+
+  # Usando o evento 'on_message' pra identificar quando uma mensagem é enviada
+  @Cog.listener()
+  async def on_message(self, message: Message):
+    print(f'A Mensagem de {message.author.name} foi recebida: {message.content}')
+
+async def setup(bot):
+  # Adicionando a cog 'Events' ao bot quando a extensão carregar
+  await bot.add_cog(Events(bot))
+```
+
+### Carregando a extensão de eventos
+
+Agora precisamos carregar essa extensão no nosso arquivo `main.py`, dentro da função `setup_hook`:
+```py title="main.py"
+async def setup_hook(self):
+  ...
+  # Carregando a extensão pelo diretório "cogs/events"
+  await self.load_extension("cogs.events")
+```
+
+Pronto! Você pode adicionar outros eventos na classe Events usando esse mesmo formato, com o decorator `@Cog.listener()` e em baixo a função do evento (sempre com o `self` como primeiro parâmetro). Lembrando que os eventos recebem parâmetros diferentes, você pode verificar a lista com todos eles [clicando aqui](https://docs.discord4py.dev/en/developer/api/events.html).

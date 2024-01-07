@@ -1,0 +1,25 @@
+{
+  "id": "linguagens/javascript",
+  "title": "Iniciando com Discord.js",
+  "description": "",
+  "source": "@site/docs/linguagens/javascript.md",
+  "sourceDirName": "linguagens",
+  "slug": "/linguagens/javascript",
+  "permalink": "/docs/linguagens/javascript",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/javascript.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "displayed_sidebar": "javascriptSidebar",
+    "pagination_prev": "linguagens/index"
+  },
+  "sidebar": "javascriptSidebar",
+  "previous": {
+    "title": "🧑‍💻 Linguagens",
+    "permalink": "/docs/linguagens/"
+  }
+}

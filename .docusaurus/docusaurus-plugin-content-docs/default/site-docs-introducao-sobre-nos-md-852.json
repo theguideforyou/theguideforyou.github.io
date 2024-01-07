@@ -1,0 +1,23 @@
+{
+  "id": "introducao/sobre-nos",
+  "title": "Sobre nós",
+  "description": "",
+  "source": "@site/docs/introducao/sobre-nos.md",
+  "sourceDirName": "introducao",
+  "slug": "/introducao/sobre-nos",
+  "permalink": "/docs/introducao/sobre-nos",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/introducao/sobre-nos.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Como posso contribuir?",
+    "permalink": "/docs/introducao/contribuidor"
+  }
+}
