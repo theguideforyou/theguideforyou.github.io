@@ -5,7 +5,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config: Config = {
   title: 'TheGuideForYou',
   tagline: 'Prático, didático e multi-linguagem',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/Favicon32.ico',
 
   // Set the production url of your site here
   url: 'https://theguideforyou.github.io/',
