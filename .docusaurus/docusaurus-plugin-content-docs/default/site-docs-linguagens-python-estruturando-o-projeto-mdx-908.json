@@ -11,10 +11,10 @@
   "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/python/estruturando-o-projeto.mdx",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 2,
   "frontMatter": {
     "title": "Estruturando o projeto",
-    "sidebar_position": 3,
+    "sidebar_position": 2,
     "displayed_sidebar": "pythonSidebar"
   },
   "sidebar": "pythonSidebar",
@@ -23,7 +23,7 @@
     "permalink": "/docs/linguagens/python/"
   },
   "next": {
-    "title": "Configurações iniciais",
-    "permalink": "/docs/linguagens/python/configuracao-inicial"
+    "title": "Definindo o client",
+    "permalink": "/docs/linguagens/python/definindo-client"
   }
 }

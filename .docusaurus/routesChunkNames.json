@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-038"
   },
-  "/docs/-872": {
+  "/docs/-661": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-e-16-50b"
     }
   },
-  "/docs/-674": {
+  "/docs/-7ca": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-739"
   },
-  "/docs/-18a": {
+  "/docs/-da7": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/iniciando/por-que-programar-bot/-7c9": {
@@ -93,6 +93,10 @@
   "/docs/linguagens/python/configuracao-inicial/-9e2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-linguagens-python-configuracao-inicial-2-bc-4ca"
+  },
+  "/docs/linguagens/python/definindo-client/-123": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linguagens-python-definindo-client-9-ea-794"
   },
   "/docs/linguagens/python/definindo-o-bot/-13a": {
     "__comp": "__comp---theme-doc-item-178-a40",

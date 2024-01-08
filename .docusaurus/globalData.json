@@ -46,6 +46,11 @@
               "sidebar": "pythonSidebar"
             },
             {
+              "id": "linguagens/python/definindo-client",
+              "path": "/docs/linguagens/python/definindo-client",
+              "sidebar": "pythonSidebar"
+            },
+            {
               "id": "linguagens/python/definindo-o-bot",
               "path": "/docs/linguagens/python/definindo-o-bot",
               "sidebar": "pythonSidebar"

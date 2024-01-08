@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "TheGuideForYou",
-  "tagline": "Prático, didático e multi-linguagem",
+  "title": "My Site",
+  "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
   "url": "https://theguideforyou.github.io",
   "baseUrl": "/",
@@ -40,17 +40,17 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "TheGuideForYou",
+      "title": "My Site",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/readme/TheGuideLogo.png"
+        "src": "img/logo.svg"
       },
       "items": [
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Documentação"
+          "label": "Tutorial"
         },
         {
           "href": "https://github.com/facebook/docusaurus",

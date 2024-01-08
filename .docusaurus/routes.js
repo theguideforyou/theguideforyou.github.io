@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/', '872'),
+    component: ComponentCreator('/docs/', '661'),
     routes: [
       {
         path: '/docs/',
-        component: ComponentCreator('/docs/', '674'),
+        component: ComponentCreator('/docs/', '7ca'),
         routes: [
           {
             path: '/docs/',
-            component: ComponentCreator('/docs/', '18a'),
+            component: ComponentCreator('/docs/', 'da7'),
             routes: [
               {
                 path: '/docs/iniciando/por-que-programar-bot/',
@@ -99,6 +99,12 @@ export default [
               {
                 path: '/docs/linguagens/python/configuracao-inicial/',
                 component: ComponentCreator('/docs/linguagens/python/configuracao-inicial/', '9e2'),
+                exact: true,
+                sidebar: "pythonSidebar"
+              },
+              {
+                path: '/docs/linguagens/python/definindo-client/',
+                component: ComponentCreator('/docs/linguagens/python/definindo-client/', '123'),
                 exact: true,
                 sidebar: "pythonSidebar"
               },

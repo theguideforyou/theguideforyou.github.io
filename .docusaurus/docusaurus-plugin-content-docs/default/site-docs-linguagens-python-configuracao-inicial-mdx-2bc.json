@@ -17,13 +17,5 @@
     "sidebar_position": 2,
     "displayed_sidebar": "pythonSidebar"
   },
-  "sidebar": "pythonSidebar",
-  "previous": {
-    "title": "Estruturando o projeto",
-    "permalink": "/docs/linguagens/python/estruturando-o-projeto"
-  },
-  "next": {
-    "title": "Definindo o bot",
-    "permalink": "/docs/linguagens/python/definindo-o-bot"
-  }
+  "sidebar": "pythonSidebar"
 }

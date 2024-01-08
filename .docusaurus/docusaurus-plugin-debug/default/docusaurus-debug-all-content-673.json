@@ -189,14 +189,31 @@
                 "sidebar_position": 2,
                 "displayed_sidebar": "pythonSidebar"
               },
+              "sidebar": "pythonSidebar"
+            },
+            {
+              "id": "linguagens/python/definindo-client",
+              "title": "Definindo o client",
+              "description": "Agora que a biblioteca está instalada, vamos definir o client responsável por qualquer ação do bot, incluindo eventos, comandos,",
+              "source": "@site/docs/linguagens/python/definindo-client.mdx",
+              "sourceDirName": "linguagens/python",
+              "slug": "/linguagens/python/definindo-client",
+              "permalink": "/docs/linguagens/python/definindo-client",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/python/definindo-client.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Definindo o client",
+                "sidebar_position": 3,
+                "displayed_sidebar": "pythonSidebar"
+              },
               "sidebar": "pythonSidebar",
               "previous": {
                 "title": "Estruturando o projeto",
                 "permalink": "/docs/linguagens/python/estruturando-o-projeto"
-              },
-              "next": {
-                "title": "Definindo o bot",
-                "permalink": "/docs/linguagens/python/definindo-o-bot"
               }
             },
             {
@@ -218,15 +235,7 @@
                 "sidebar_position": 3,
                 "displayed_sidebar": "pythonSidebar"
               },
-              "sidebar": "pythonSidebar",
-              "previous": {
-                "title": "Configurações iniciais",
-                "permalink": "/docs/linguagens/python/configuracao-inicial"
-              },
-              "next": {
-                "title": "Utilizando eventos",
-                "permalink": "/docs/linguagens/python/utilizando-eventos"
-              }
+              "sidebar": "pythonSidebar"
             },
             {
               "id": "linguagens/python/estruturando-o-projeto",
@@ -241,10 +250,10 @@
               "editUrl": "https://github.com/theguideforyou/theguideforyou.github.io/tree/main/docs/linguagens/python/estruturando-o-projeto.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "title": "Estruturando o projeto",
-                "sidebar_position": 3,
+                "sidebar_position": 2,
                 "displayed_sidebar": "pythonSidebar"
               },
               "sidebar": "pythonSidebar",
@@ -253,8 +262,8 @@
                 "permalink": "/docs/linguagens/python/"
               },
               "next": {
-                "title": "Configurações iniciais",
-                "permalink": "/docs/linguagens/python/configuracao-inicial"
+                "title": "Definindo o client",
+                "permalink": "/docs/linguagens/python/definindo-client"
               }
             },
             {
@@ -376,11 +385,15 @@
                       },
                       {
                         "type": "doc",
-                        "id": "linguagens/python/definindo-o-bot"
+                        "id": "linguagens/python/estruturando-o-projeto"
                       },
                       {
                         "type": "doc",
-                        "id": "linguagens/python/estruturando-o-projeto"
+                        "id": "linguagens/python/definindo-client"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "linguagens/python/definindo-o-bot"
                       },
                       {
                         "type": "doc",
@@ -421,15 +434,7 @@
               },
               {
                 "type": "doc",
-                "id": "linguagens/python/configuracao-inicial"
-              },
-              {
-                "type": "doc",
-                "id": "linguagens/python/definindo-o-bot"
-              },
-              {
-                "type": "doc",
-                "id": "linguagens/python/utilizando-eventos"
+                "id": "linguagens/python/definindo-client"
               }
             ]
           }

@@ -87,16 +87,23 @@
               },
               {
                 "type": "link",
-                "label": "Definindo o bot",
-                "href": "/docs/linguagens/python/definindo-o-bot",
-                "docId": "linguagens/python/definindo-o-bot",
+                "label": "Estruturando o projeto",
+                "href": "/docs/linguagens/python/estruturando-o-projeto",
+                "docId": "linguagens/python/estruturando-o-projeto",
                 "unlisted": false
               },
               {
                 "type": "link",
-                "label": "Estruturando o projeto",
-                "href": "/docs/linguagens/python/estruturando-o-projeto",
-                "docId": "linguagens/python/estruturando-o-projeto",
+                "label": "Definindo o client",
+                "href": "/docs/linguagens/python/definindo-client",
+                "docId": "linguagens/python/definindo-client",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Definindo o bot",
+                "href": "/docs/linguagens/python/definindo-o-bot",
+                "docId": "linguagens/python/definindo-o-bot",
                 "unlisted": false
               },
               {
@@ -144,23 +151,9 @@
       },
       {
         "type": "link",
-        "label": "Configurações iniciais",
-        "href": "/docs/linguagens/python/configuracao-inicial",
-        "docId": "linguagens/python/configuracao-inicial",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Definindo o bot",
-        "href": "/docs/linguagens/python/definindo-o-bot",
-        "docId": "linguagens/python/definindo-o-bot",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Utilizando eventos",
-        "href": "/docs/linguagens/python/utilizando-eventos",
-        "docId": "linguagens/python/utilizando-eventos",
+        "label": "Definindo o client",
+        "href": "/docs/linguagens/python/definindo-client",
+        "docId": "linguagens/python/definindo-client",
         "unlisted": false
       }
     ]
@@ -206,6 +199,12 @@
       "id": "linguagens/python/configuracao-inicial",
       "title": "Configurações iniciais",
       "description": "Para acessar o token do seu bot, veja o Guia de como criar uma aplicação no Discord Developer Portal",
+      "sidebar": "pythonSidebar"
+    },
+    "linguagens/python/definindo-client": {
+      "id": "linguagens/python/definindo-client",
+      "title": "Definindo o client",
+      "description": "Agora que a biblioteca está instalada, vamos definir o client responsável por qualquer ação do bot, incluindo eventos, comandos,",
       "sidebar": "pythonSidebar"
     },
     "linguagens/python/definindo-o-bot": {
