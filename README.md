@@ -1,41 +1,11 @@
-# Website
+![](static/img/readme/Separator.png) <!-- SEPARADOR -->
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+<div align="center">
+    <img src="static/img/readme/Logotipo.png" align="center" style="padding: 12px; height: 100%; max-height: 128px">
+</div>
 
-### Installation
+![](static/img/readme/Separator.png) <!-- SEPARADOR -->
 
-```
-$ yarn
-```
+![](static/img/readme/About.png)
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Bem-vindo(a) ao projeto **TheGuideForYou**, um projeto criado com a função de documentar todas as linguagens possíveis na criação de bots para Discord. Se você está procurando uma documentação global, que contenha todos os guias reunidos em um único lugar, você está no projeto certo.
