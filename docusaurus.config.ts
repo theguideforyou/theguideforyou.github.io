@@ -5,7 +5,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config: Config = {
   title: 'TheGuideForYou',
   tagline: 'Prático, didático e multi-linguagem',
-  favicon: 'static/img/readme/TheGuideLogo.png',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://theguideforyou.github.io/',
@@ -52,17 +52,17 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'TheGuideForYou',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/readme/TheGuideLogo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentação',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
