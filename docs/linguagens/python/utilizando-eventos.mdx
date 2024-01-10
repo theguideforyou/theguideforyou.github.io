@@ -2,13 +2,12 @@
 title: "Utilizando eventos"
 sidebar_position: 4
 displayed_sidebar: pythonSidebar
-pagination_prev: linguagens/index
 ---
 
 # Utilizando eventos
 
 :::info
-Recomendamos que veja [O que são eventos](#) antes de continuar esse tópico
+Recomendamos que veja [o que são eventos](#) antes de continuar esse tópico
 :::
 
 ### Criando estrutura de eventos
@@ -43,4 +42,5 @@ async def setup_hook(self):
   await self.load_extension("cogs.events")
 ```
 
-Pronto! Você pode adicionar outros eventos na classe Events usando esse mesmo formato, com o decorator `@Cog.listener()` e em baixo a função do evento (sempre com o `self` como primeiro parâmetro). Lembrando que os eventos recebem parâmetros diferentes, você pode verificar a lista com todos eles [clicando aqui](https://docs.discord4py.dev/en/developer/api/events.html).
+Pronto! Você pode adicionar outros eventos na classe `Events` usando esse mesmo formato, com o decorator `@Cog.listener()` e em baixo a função do evento (sempre com o `self` como primeiro parâmetro).
+Lembrando que os eventos recebem parâmetros diferentes, você pode verificar a lista de todos esses eventos [clicando aqui](https://docs.discord4py.dev/en/developer/api/events.html).

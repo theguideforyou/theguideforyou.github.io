@@ -2,7 +2,6 @@
 title: "Definindo o bot"
 sidebar_position: 3
 displayed_sidebar: pythonSidebar
-# pagination_prev: linguagens/index
 ---
 
 # Definindo o bot
@@ -35,8 +34,7 @@ bot.run(token)
 ```
 
 Lembrando que estamos usando a função `setup_hook` ao invés do evento `on_ready`, já que o `on_ready` pode ser emitido mais de uma vez e pode não ser o primeiro evento a ser chamado (de acordo com a própria documentação do discord.py)
-{/* Esse `client` agora pode ser usado para acessar informações de servidores, usuários, receber eventos, registrar comandos, enviar mensagens e muito mais. */}
 
 :::warning[Aviso]
-Caso não tenha habilitado as intents no painel do Discord Developer Portal, você receberá um erro na hora de iniciar o bot. Qualquer dúvida consulte o [Guia de intents do Discord](#).
+Caso não tenha habilitado as intents no painel do Discord Developer Portal, você receberá um erro na hora de iniciar o bot. Qualquer dúvida consulte o [guia de intents do Discord](#).
 :::
