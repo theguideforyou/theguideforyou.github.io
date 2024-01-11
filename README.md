@@ -18,3 +18,11 @@ Desse modo, o prinpal objetivo dessa documentação é reunir todos os programad
 
 Bom, se você chegou nessa parte, fique sabendo que estamos muito animados por você querer contribuir para este projeto. É muito importante para nós que haja o máximo de pessoas com a iniciativa de contribuir e ajudar o próximo, até porque foi com essa ideia que o guia surgiu. Se você tem qualquer conhecimento, não importa a quantidade, se você acha que com o conhecimento que você tem, conseguirá fazer a diferença (mesmo que seja mínima), sinta-se em casa, a vontade, e pode ter certeza que iremos recebê-lo com toda gratidão.
 
+
+![](static/img/readme/Contribuidores.png)
+
+Não poderiamos deixar de mostrar nossa gratidão para todos os contribuidores do projeto TheGuideForYou.
+
+<a href="https://github.com/theguideforyou/theguideforyou.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=theguideforyou/theguideforyou.github.io" />
+</a>
