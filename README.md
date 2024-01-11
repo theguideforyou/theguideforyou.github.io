@@ -14,3 +14,7 @@ Desse modo, o prinpal objetivo dessa documentação é reunir todos os programad
 
 ![](static/img/readme/Info.png)
 
+![](static/img/readme/Contribution.png)
+
+Bom, se você chegou nessa parte, fique sabendo que estamos muito animados por você querer contribuir para este projeto. É muito importante para nós que haja o máximo de pessoas com a iniciativa de contribuir e ajudar o próximo, até porque foi com essa ideia que o guia surgiu. Se você tem qualquer conhecimento, não importa a quantidade, se você acha que com o conhecimento que você tem, conseguirá fazer a diferença (mesmo que seja mínima), sinta-se em casa, a vontade, e pode ter certeza que iremos recebê-lo com toda gratidão.
+
