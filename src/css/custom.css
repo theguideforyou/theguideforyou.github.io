@@ -43,6 +43,10 @@
   text-decoration: none;
 }
 
-.langCardBox {
-  border: 1px solid #404040;
+li.menu__list-item ul.menu__list li a {
+  @apply font-normal
+}
+
+.sidebarLanguagesLink {
+  @apply py-1 border-0 border-b border-solid border-neutral-200 dark:border-neutral-800
 }
