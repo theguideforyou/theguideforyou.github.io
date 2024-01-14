@@ -21,7 +21,7 @@ Bom, se você chegou nessa parte, fique sabendo que estamos muito animados por v
 
 ![](static/img/readme/Contribuidores.png)
 
-Não poderiamos deixar de mostrar nossa gratidão para todos os contribuidores do projeto TheGuideForYou.
+Não poderiamos deixar de mostrar nossa gratidão para todos os contribuidores do projeto **TheGuideForYou**.
 
 <a href="https://github.com/theguideforyou/theguideforyou.github.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=theguideforyou/theguideforyou.github.io" />
